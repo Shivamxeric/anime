@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xAnime || Eric </title>
+    <link rel="icon" href="logo-Copy.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Anime Watch</h1>
+        <div class="search-bar">
+            <input type="text" id="searchBox" placeholder="Search for Anime">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+
+    <!-- Anime List Section -->
+    <div id="animeList" class="anime-list"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+
+    <!-- Video Modal (Hidden initially) -->
+    <div id="videoModal" class="video-modal">
+        <div class="modal-content">
+            <span id="closeButton" class="close-button">&times;</span>
+            <iframe id="videoIframe" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
